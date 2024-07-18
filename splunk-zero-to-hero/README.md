@@ -12,6 +12,8 @@ cd /tmp
 sudo dpkg -i splunk-9.0.3-dd0128b1f8cd-linux-2.6-amd64.deb 
 sudo /opt/splunk/bin/splunk enable boot-start --accept-license --answer-yes
 sudo service splunk start
+sudo /opt/splunk/bin/splunk enable boot-start
+run localhost:8000
 ```
 
 ## sourcetype 
